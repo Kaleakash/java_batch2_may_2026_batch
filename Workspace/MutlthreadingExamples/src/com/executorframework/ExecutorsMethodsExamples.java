@@ -6,6 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.locks.ReentrantLock;
 
 class Task implements Callable<Thread>{
 	@Override
@@ -20,6 +21,7 @@ public class ExecutorsMethodsExamples {
 	public static void main(String[] args) throws Exception{
 		//ThreadPoolExecutor tpe = new Thread
 		// TODO Auto-generated method stub
+		//Lock ll = new ReentrantLock
 		Task tt = new Task();
 		//ExecutorService es = Executors.newSingleThreadExecutor();
 		//ExecutorService es = Executors.newFixedThreadPool(3);
