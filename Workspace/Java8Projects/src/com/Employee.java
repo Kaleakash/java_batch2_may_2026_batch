@@ -4,6 +4,21 @@ public class Employee {
 private int id;
 private String name;
 private float salary;
+private String deptName;
+
+public String getDeptName() {
+	return deptName;
+}
+public void setDeptName(String deptName) {
+	this.deptName = deptName;
+}
+public Employee(int id, String name, float salary, String deptName) {
+	super();
+	this.id = id;
+	this.name = name;
+	this.salary = salary;
+	this.deptName = deptName;
+}
 public Employee(int id, String name, float salary) {
 	super();
 	this.id = id;
