@@ -24,9 +24,9 @@ public class DemoTest {
 	        System.out.println("work finish");
 	        
 	       // Executors.newVirtua
-	        CompletableFuture<String> cf = CompletableFuture.runAsync(()-> {
-	        	
-	        });
+//	        CompletableFuture<String> cf = CompletableFuture.runAsync(()-> {
+//	        	
+//	        });
 	}
 
 }
